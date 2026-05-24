@@ -8,7 +8,7 @@
     "react": "^18.0.0"
   },
   "scripts": {
-    "build": "esbuild src/index.js --bundle --outfile=dist/index.js"
+    "build": "esbuild src/index.jsx --bundle --format=esm --outfile=dist/index.js --loader:.jsx=jsx"
   },
   "devDependencies": {
     "esbuild": "^0.28.0"

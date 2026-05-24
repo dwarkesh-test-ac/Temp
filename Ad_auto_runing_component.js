@@ -1,6 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
 import axios from "axios";
-import { Navigate, redirect } from "react-router-dom";
 
 function ad_runner({ children, Code }) {
   const [showOverlay, setShowOverlay] = useState(false);

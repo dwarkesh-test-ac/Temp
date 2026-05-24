@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import axios from "axios";
 
-function ad_runner({ children, Code }) {
+export default function ad_runner({ children, Code }) {
   const [showOverlay, setShowOverlay] = useState(false);
   const [timesing, setTimesing] = useState(true);
   const [cross, setCross] = useState(false);
@@ -175,5 +175,3 @@ function ad_runner({ children, Code }) {
   );
 
 }
-
-export default ad_runner;

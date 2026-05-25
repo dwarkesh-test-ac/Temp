@@ -3092,7 +3092,7 @@ var {
 } = axios_default;
 
 // src/Ad_auto_runing_component.jsx
-function ad_runner({ children, Code }) {
+function AutoAdRunner({ children, Code }) {
   const [showOverlay, setShowOverlay] = useState(false);
   const [timesing, setTimesing] = useState(true);
   const [cross, setCross] = useState(false);
@@ -3221,13 +3221,13 @@ function ad_runner({ children, Code }) {
 
 // src/Ad_click_running_component.jsx
 import React2 from "react";
-function Ad_click_runing_component() {
+function ClickAdRunner() {
   return /* @__PURE__ */ React2.createElement("div", null, "Ad_click_runing_component");
 }
 
 // src/index.jsx
-var index_default = ad_runner;
+var index_default = AutoAdRunner;
 export {
-  Ad_click_runing_component as AdClick,
+  ClickAdRunner as AdClick,
   index_default as default
 };

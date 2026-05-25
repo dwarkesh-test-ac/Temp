@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import axios from "axios";
 
-export default function ad_runner({ children, Code }) {
+export default function AutoAdRunner({ children, Code }) {
   const [showOverlay, setShowOverlay] = useState(false);
   const [timesing, setTimesing] = useState(true);
   const [cross, setCross] = useState(false);
